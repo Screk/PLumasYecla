@@ -1,0 +1,26 @@
+.Eventos_father {
+    color: black;
+    width: 70vw;
+    margin-top: 3rem;
+}
+
+.Eventos_father > span {
+    font-size: 40px;
+    margin-left: 2rem;
+}
+
+.Eventos_father > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    list-style-type: none;
+    margin-top: 2rem;
+}
+
+.evento {
+    width: 60%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

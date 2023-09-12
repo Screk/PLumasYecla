@@ -1,0 +1,17 @@
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2rem;
+    width: 70vw;
+}
+
+.carousel-container > img {
+    width: 50vw;
+}
+
+.button-container {
+    display: flex;
+}

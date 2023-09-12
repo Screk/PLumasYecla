@@ -1,0 +1,32 @@
+.imgContainer > li {
+    list-style-type: none;
+}
+
+.imgContainer > li > img {
+    height: 5rem;
+}
+
+.carrousel {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.uls {
+    display: flex;
+    margin-top: 10rem;
+    justify-content: center;
+}
+
+.miembros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fondo_plumas > img {
+    position: absolute;
+    width: 100vw;
+    height: 20rem;
+    z-index: 0;
+}

@@ -1,0 +1,29 @@
+.PoliticaGlobal-container {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 5rem;
+}
+
+.PoliticaGlobal-container > h2 {
+    border-bottom: 3px solid rgb(52, 224, 52);
+}
+
+.PoliticaGlobal-container > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.PoliticaGlobal-container > ul > li {
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    font-size: 20px;
+}
+
+.PoliticaGlobal-container > ul > li > img {
+ width: 4rem;
+}

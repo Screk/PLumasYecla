@@ -1,0 +1,40 @@
+div > h2 {
+    color: black;
+    margin-left: 2rem;
+}
+
+.father {
+    background-color: rgb(236, 238, 238);
+    height: 60rem;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    border-radius: 2rem;
+}
+
+.father > h2 {
+    margin-top: 5rem;
+    margin-left: 6rem;
+    margin-bottom: 1rem;
+}
+
+.miembros_container {
+    display: grid;
+    grid-template-columns: repeat(6, 12rem);
+    gap: 2px;
+    justify-content: center;
+}
+
+.miembro {
+    width: 12rem;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.miembro > img {
+    height: 7rem;
+}
