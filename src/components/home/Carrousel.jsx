@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './Carrousel.css';
 
 const Carousel = () => {
-  const images = ["../public/espana.png", "../public/reino-unido.png", "../public/francia.png", "../public/alemania.png", "../public/brasil.png"];
+  const images = ["/src/images/espana.png", "/src/images/reino-unido.png", "/src/images/francia.png", "/src/images/alemania.png", "/src/images/brasil.png"];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const prevImage = () => {
