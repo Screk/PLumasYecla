@@ -24,8 +24,8 @@ function App() {
           <input className='article1_input' type="text" />
         </article>
         <article className='article2'>
-          <nav>
-          <NavLink className='logo' to='/pages/home'><img src="/images/Caratula-web.jpg" alt="" /></NavLink>
+          <nav>                                                   
+          <NavLink className='logo' to='/pages/home'><img src="src\images\Caratula-web.jpg" alt="texto" /></NavLink>
           </nav>
           <nav className='nav2'>
             <div className='link2_container'>
