@@ -6,30 +6,30 @@ const Miembros = () => {
     <div className='father'>
         <h2>MIEMBROS GLOBALES</h2>
         <div className='miembros_container'>
-            <span className='miembro'><img src="/src/images/Caratula-web.jpg" alt="" /></span>
-            <span className='miembro'><img src="/src/images/Caratula-web.jpg" alt="" /></span>
-            <span className='miembro'><img src="/src/images/Caratula-web.jpg" alt="" /></span>
-            <span className='miembro'><img src="/src/images/Caratula-web.jpg" alt="" /></span>
-            <span className='miembro'><img src="/src/images/Caratula-web.jpg" alt="" /></span>
-            <span className='miembro'><img src="/src/images/Caratula-web.jpg" alt="" /></span>
-            <span className='miembro'><img src="/src/images/Caratula-web.jpg" alt="" /></span>
-            <span className='miembro'><img src="/src/images/Caratula-web.jpg" alt="" /></span>
-            <span className='miembro'><img src="/src/images/Caratula-web.jpg" alt="" /></span>
-            <span className='miembro'><img src="/src/images/Caratula-web.jpg" alt="" /></span>
-            <span className='miembro'><img src="/src/images/Caratula-web.jpg" alt="" /></span>
-            <span className='miembro'><img src="/src/images/Caratula-web.jpg" alt="" /></span>
-            <span className='miembro'><img src="/src/images/Caratula-web.jpg" alt="" /></span>
-            <span className='miembro'><img src="/src/images/Caratula-web.jpg" alt="" /></span>
-            <span className='miembro'><img src="/src/images/Caratula-web.jpg" alt="" /></span>
-            <span className='miembro'><img src="/src/images/Caratula-web.jpg" alt="" /></span>
-            <span className='miembro'><img src="/src/images/Caratula-web.jpg" alt="" /></span>
-            <span className='miembro'><img src="/src/images/Caratula-web.jpg" alt="" /></span>
-            <span className='miembro'><img src="/src/images/Caratula-web.jpg" alt="" /></span>
-            <span className='miembro'><img src="/src/images/Caratula-web.jpg" alt="" /></span>
-            <span className='miembro'><img src="/src/images/Caratula-web.jpg" alt="" /></span>
-            <span className='miembro'><img src="/src/images/Caratula-web.jpg" alt="" /></span>
-            <span className='miembro'><img src="/src/images/Caratula-web.jpg" alt="" /></span>
-            <span className='miembro'><img src="/src/images/Caratula-web.jpg" alt="" /></span>
+            <span className='miembro'><img src="/images/Caratula-web.jpg" alt="" /></span>
+            <span className='miembro'><img src="/images/Caratula-web.jpg" alt="" /></span>
+            <span className='miembro'><img src="/images/Caratula-web.jpg" alt="" /></span>
+            <span className='miembro'><img src="/images/Caratula-web.jpg" alt="" /></span>
+            <span className='miembro'><img src="/images/Caratula-web.jpg" alt="" /></span>
+            <span className='miembro'><img src="/images/Caratula-web.jpg" alt="" /></span>
+            <span className='miembro'><img src="/images/Caratula-web.jpg" alt="" /></span>
+            <span className='miembro'><img src="/images/Caratula-web.jpg" alt="" /></span>
+            <span className='miembro'><img src="/images/Caratula-web.jpg" alt="" /></span>
+            <span className='miembro'><img src="/images/Caratula-web.jpg" alt="" /></span>
+            <span className='miembro'><img src="/images/Caratula-web.jpg" alt="" /></span>
+            <span className='miembro'><img src="/images/Caratula-web.jpg" alt="" /></span>
+            <span className='miembro'><img src="/images/Caratula-web.jpg" alt="" /></span>
+            <span className='miembro'><img src="/images/Caratula-web.jpg" alt="" /></span>
+            <span className='miembro'><img src="/images/Caratula-web.jpg" alt="" /></span>
+            <span className='miembro'><img src="/images/Caratula-web.jpg" alt="" /></span>
+            <span className='miembro'><img src="/images/Caratula-web.jpg" alt="" /></span>
+            <span className='miembro'><img src="/images/Caratula-web.jpg" alt="" /></span>
+            <span className='miembro'><img src="/images/Caratula-web.jpg" alt="" /></span>
+            <span className='miembro'><img src="/images/Caratula-web.jpg" alt="" /></span>
+            <span className='miembro'><img src="/images/Caratula-web.jpg" alt="" /></span>
+            <span className='miembro'><img src="/images/Caratula-web.jpg" alt="" /></span>
+            <span className='miembro'><img src="/images/Caratula-web.jpg" alt="" /></span>
+            <span className='miembro'><img src="/images/Caratula-web.jpg" alt="" /></span>
         </div>
     </div>
   )

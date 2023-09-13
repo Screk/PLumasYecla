@@ -25,7 +25,7 @@ function App() {
         </article>
         <article className='article2'>
           <nav>
-          <NavLink className='logo' to='/pages/home'><img src="./images/Caratula-web.jpg" alt="" /></NavLink>
+          <NavLink className='logo' to='/pages/home'><img src="/images/Caratula-web.jpg" alt="" /></NavLink>
           </nav>
           <nav className='nav2'>
             <div className='link2_container'>
