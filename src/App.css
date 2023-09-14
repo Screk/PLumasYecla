@@ -51,6 +51,10 @@ header {
   left: 10rem;
 }
 
+.article1 > button {
+  margin-left: 20rem;
+}
+
 .article2 {
   display: flex;
   justify-content: center;
@@ -94,3 +98,61 @@ footer {
   justify-content: center;
 }
 
+@media screen and ( max-width: 850px ) {
+
+  .article1 {
+    height: 10vh;
+  }
+
+  .link1 {
+    display: none;
+    }
+
+  .article1_label, .article1_input {
+    display: none;
+  }
+  
+  .article1 > button {
+    display: flex;
+    height: 10rem;
+    width: 5rem;
+    margin-left: 25rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #language {
+    display: none;
+  }
+
+  .logo > img {
+    height: 10rem;
+    top: 1rem;
+    left: 1rem;
+  }
+
+  .article2 {
+    height: 30.2vh;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 00vh;
+  }
+
+  .nav2 {
+    width: 100%;
+    margin-left: 0;
+    background-color: rgb(224, 224, 224);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article2.show {
+    margin-top: 0;
+  }
+
+  main {
+    margin-top: 10vh;
+  }
+
+}

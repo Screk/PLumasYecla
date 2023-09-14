@@ -1,8 +1,14 @@
 import { NavLink, Outlet } from 'react-router-dom'
 import './App.css'
+import React, { useState } from 'react';
 
 function App() {
 
+  const [menuVisible, setMenuVisible] = useState(false);
+
+  const toggleClick = () => {
+    setMenuVisible(!menuVisible)
+  }
 
   return (
     <>
@@ -22,32 +28,41 @@ function App() {
           </select>
           <label className='article1_label' htmlFor="article1_input">Buscador 🔎</label>
           <input className='article1_input' type="text" />
+          <button type='checkbox' onClick={toggleClick}>⚙</button>
+
         </article>
-        <article className='article2'>
-          <nav>                                                   
+
+        <nav>                                                   
           <NavLink className='logo' to='/pages/home'><img src="../Caratula-web.jpg" alt="texto" /></NavLink>
-          </nav>
-          <nav className='nav2'>
-            <div className='link2_container'>
-            <NavLink className='link2' to='/pages/acerca_de_PlumasYecla'>Acerca_de_PlumasYecla</NavLink>
-            </div >
-            <div className='link2_container'>
-            <NavLink className='link2' to='/pages/cuestiones_de_politica'>Cuestiones_de_politica</NavLink>
-            </div>
-            <div className='link2_container'>
-            <NavLink className='link2' to='/pages/soluciones_de_cumplimineto'>Soluciones_de_cumplimineto</NavLink>
-            </div>
-            <div className='link2_container'>
-            <NavLink className='link2' to='/pages/membresia'>Membresia</NavLink>
-            </div>
-            <div className='link2_container'>
-            <NavLink className='link2' to='/pages/informes'>Informes</NavLink>
-            </div>
-            <div className='link2_container'>
-            <NavLink className='link2' to='/pages/noticias_y_eventos'>Noticias_y_eventos</NavLink>
-            </div>
-          </nav>
-        </article>
+        </nav>
+
+        {menuVisible && (
+          <article className='article2'>
+            
+          
+            <nav className='nav2'>
+              <div className='link2_container'>
+              <NavLink className='link2' to='/pages/acerca_de_PlumasYecla'>Acerca_de_PlumasYecla</NavLink>
+              </div >
+              <div className='link2_container'>
+              <NavLink className='link2' to='/pages/cuestiones_de_politica'>Cuestiones_de_politica</NavLink>
+              </div>
+              <div className='link2_container'>
+              <NavLink className='link2' to='/pages/soluciones_de_cumplimineto'>Soluciones_de_cumplimineto</NavLink>
+              </div>
+              <div className='link2_container'>
+              <NavLink className='link2' to='/pages/membresia'>Membresia</NavLink>
+              </div>
+              <div className='link2_container'>
+              <NavLink className='link2' to='/pages/informes'>Informes</NavLink>
+              </div>
+              <div className='link2_container'>
+              <NavLink className='link2' to='/pages/noticias_y_eventos'>Noticias_y_eventos</NavLink>
+              </div>
+            </nav>
+            
+          </article>
+          )}
       </header>
       <main>
         <Outlet />

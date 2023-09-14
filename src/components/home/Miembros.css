@@ -38,3 +38,13 @@ div > h2 {
 .miembro > img {
     height: 7rem;
 }
+
+@media screen and ( max-width: 850px ) {
+    .father {
+        height: 110rem;
+    }
+
+    .miembros_container {
+        grid-template-columns: repeat(3, 12rem);
+    }
+}
