@@ -1,8 +1,15 @@
 import React from 'react'
+import './Fundacion_PlumasYecla.css'
 
 const Fundacion_PLumasYecla = () => {
   return (
-    <div>Fundacion_PLumasYecla</div>
+    <>
+    <div className='titulo'>
+    <h1>Nuestra empresa</h1>
+    </div>
+    
+    <div className='nave_image'></div>
+    </>
   )
 }
 

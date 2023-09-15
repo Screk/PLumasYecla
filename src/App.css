@@ -4,6 +4,8 @@
   font-family: 'Inconsolata', monospace;
 }
 
+@media screen and (min-width: 851px) {
+
 header {
   width: 100vw;
 }
@@ -21,7 +23,7 @@ header {
 .nav1 {
   display: flex;
   gap: 5rem;
-  margin-left: 25rem;
+  margin-left: 25%;
 }
 
 .link1 {
@@ -43,16 +45,16 @@ header {
 
 .article1_input {
   position: relative;
-  left: 10rem;
+  left: 8%;
 }
 
 .article1_label {
   position: relative;
-  left: 10rem;
+  left: 9%;
 }
 
 .article1 > button {
-  margin-left: 20rem;
+  margin-left: 15%;
 }
 
 .article2 {
@@ -62,6 +64,10 @@ header {
   height: 5rem;
   background-color: aliceblue;
   border-bottom: 2px solid black;
+}
+
+.link2 {
+  color: black;
 }
 
 .link2_container {
@@ -97,11 +103,15 @@ footer {
   align-items: center;
   justify-content: center;
 }
-
-@media screen and ( max-width: 850px ) {
+}
+@media screen and ( max-width: 850px) {
 
   .article1 {
-    height: 10vh;
+    height: 10rem;
+    background-color: rgb(86, 131, 101);
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .link1 {
@@ -114,9 +124,9 @@ footer {
   
   .article1 > button {
     display: flex;
-    height: 10rem;
+    height: 8rem;
     width: 5rem;
-    margin-left: 25rem;
+    margin-left: 75%;
     align-items: center;
     justify-content: center;
   }
@@ -126,14 +136,15 @@ footer {
   }
 
   .logo > img {
-    height: 10rem;
-    top: 1rem;
-    left: 1rem;
+    height: 8rem;
+    position: fixed;
+    top: 2%;
+    left: 2%;
   }
 
   .article2 {
     height: 30.2vh;
-    background-color: white;
+    background-color: rgb(224, 224, 224);
     border: 2px solid black;
     margin-top: 00vh;
   }
@@ -144,6 +155,7 @@ footer {
     background-color: rgb(224, 224, 224);
     font-size: 30px;
     display: flex;
+    align-items: center;
     flex-direction: column;
   }
 

@@ -5,11 +5,14 @@
     flex-direction: column;
     background-color: rgb(255, 255, 255);
     border-radius: 2rem;
-    width: 70vw;
+    height: 50rem;
+    width: 0vw;
 }
 
 .carousel-container > img {
+    margin-top: 5rem;
     width: 50vw;
+    height: 50rem;
 }
 
 .button-container {

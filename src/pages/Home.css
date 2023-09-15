@@ -7,9 +7,12 @@
 }
 
 .carrousel {
+    height: 60rem;
     display: flex;
     justify-content: center;
     z-index: 1;
+    background-image: url(https://images.wallpaperscraft.com/image/single/bamboo_forest_trees_121389_3840x2160.jpg);
+    background-size: cover;
 }
 
 .uls {
@@ -22,11 +25,4 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.fondo_plumas > img {
-    position: absolute;
-    width: 100vw;
-    height: 20rem;
-    z-index: 0;
 }
