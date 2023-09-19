@@ -8,7 +8,39 @@ const Fundacion_PLumasYecla = () => {
     <h1>Nuestra empresa</h1>
     </div>
     
-    <div className='nave_image'></div>
+    <div className='nave_image'>
+      <img src="../panoramica_fabrica.jpg" alt="fabrica" />
+    </div>
+
+    <div className='secciones_container'>
+      <div className='seccion_de_llenado'>
+        <h2>Seccion de llenado</h2>
+        <div className='imagenes_llenado'>
+          <img src="../imagenes_llenado1.jpg" alt="" />
+          <img src="../imagenes_llenado2.jpg" alt="" />
+          <img src="../imagenes_llenado3.jpg" alt="" />
+          <img src="../carrousel3.jpg" alt="" />
+          
+        </div>
+      </div>
+      <div className='seccion_de_corte_y_cosido'>
+        <h2>Seccion de corte y cosido</h2>
+        <div className='imagenes_corte'>
+          <img src="../imagenes_corte_y_cosido1.jpg" alt="" />
+          <img src="../imagenes_corte_y_cosido2.jpg" alt="" />
+          <img src="../imagenes_corte_y_cosido3.jpg" alt="" />
+          <img src="../imagenes_corte_y_cosido4.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div className='encuentranos_container'>
+      <h2>Puedes encontrarnos aqui!</h2>
+      <div>
+        <img src="../Nave.jpg" alt="" />
+      </div>
+      <h3>Dirección: C. Reina Sofía, 33, 30510 Yecla, Murcia</h3>
+    </div>
+
     </>
   )
 }

@@ -1,17 +1,11 @@
-.imgContainer > li {
-    list-style-type: none;
-}
 
-.imgContainer > li > img {
-    height: 5rem;
-}
 
 .carrousel {
     height: 60rem;
     display: flex;
     justify-content: center;
     z-index: 1;
-    background-image: url(https://images.wallpaperscraft.com/image/single/bamboo_forest_trees_121389_3840x2160.jpg);
+    background-image: url(../fondo_carrousel.jpg);
     background-size: cover;
 }
 

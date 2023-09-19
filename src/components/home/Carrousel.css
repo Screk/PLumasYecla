@@ -10,9 +10,9 @@
 }
 
 .carousel-container > img {
-    margin-top: 5rem;
     width: 50vw;
-    height: 50rem;
+    max-height: 55rem;
+    border-radius: 2rem;
 }
 
 .button-container {
