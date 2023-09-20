@@ -1,0 +1,23 @@
+.encuentranos_container > h1 {
+    width: 42rem
+}
+
+.ficha {
+    color: black;
+    background-image: url(../RELLENO_1.jpg);
+    display: flex;
+    gap: 3rem;
+    justify-content: flex-start;
+}
+
+
+.ficha > div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.navlink > img {
+    width: 15rem;
+    border: 2px solid black;
+}

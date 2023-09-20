@@ -4,6 +4,7 @@
     height: 60rem;
     display: flex;
     justify-content: center;
+    align-items: flex-start;
     z-index: 1;
     background-image: url(../fondo_carrousel.jpg);
     background-size: cover;

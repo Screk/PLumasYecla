@@ -10,11 +10,39 @@
 }
 
 .carousel-container > img {
-    width: 50vw;
-    max-height: 55rem;
+    width: 40vw;
+    max-height: 50rem;
+    border-radius: 2rem;
+}
+
+.carrousel_img {
+    width: 50rem;
     border-radius: 2rem;
 }
 
 .button-container {
     display: flex;
 }
+
+/* CSS para las miniaturas */
+.thumbnail {
+    width: 5rem;
+    height: 5rem;
+    margin-right: 0.5rem; /* Margen entre miniaturas */
+    cursor: pointer;
+    transition: opacity 0.3s; /* Agregar transición de opacidad para efecto visual */
+  }
+
+  .thumbnails-container {
+    display: flex;
+
+  }
+  
+  /* CSS para la miniatura activa */
+  .active-thumbnail {
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+    border: 2px solid #007bff; /* Resaltar la miniatura activa */
+  }
+

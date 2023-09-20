@@ -78,7 +78,7 @@ function App() {
 
           <nav>
             <NavLink className='logo' to='/pages/home'>
-              <img src="../Caratula-web.jpg" alt="texto" />
+              <img src="../logo_plumas_yecla.png" alt="texto" />
             </NavLink>
           </nav>
 

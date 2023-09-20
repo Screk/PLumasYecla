@@ -33,14 +33,6 @@ const Fundacion_PLumasYecla = () => {
         </div>
       </div>
     </div>
-    <div className='encuentranos_container'>
-      <h2>Puedes encontrarnos aqui!</h2>
-      <div>
-        <img src="../Nave.jpg" alt="" />
-      </div>
-      <h3>Dirección: C. Reina Sofía, 33, 30510 Yecla, Murcia</h3>
-    </div>
-
     </>
   )
 }
