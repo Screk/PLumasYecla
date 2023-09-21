@@ -7,7 +7,7 @@
 @media screen and (min-width: 851px) {
 
 header {
-  width: 100vw;
+  width: 99.1vw;
 }
 
 .article1 {
@@ -96,12 +96,13 @@ header {
 }
 
 footer {
-  height: 10rem;
-  width: 100%;
-  color: black;
+  margin-top: 5rem;
+  height: 5rem;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgb(86, 131, 101);
 }
 }
 @media screen and ( max-width: 850px) {

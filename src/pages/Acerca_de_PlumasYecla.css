@@ -1,8 +1,28 @@
+.encuentranos_container {
+    background-image: url(../COLLAGE_2.jpg);
+    margin-top: 0;
+    height: 86.7vh;
+}
+
 .encuentranos_container > h1 {
-    width: 42rem
+    width: 42rem;
+    margin-top: 5rem;
+}
+
+.encuentranos_container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.encuentranos_container > div > div > img {
+    height: 35rem;
 }
 
 .ficha {
+    margin-bottom: 10rem;
+    padding: 1rem;
     color: black;
     background-image: url(../RELLENO_1.jpg);
     display: flex;
@@ -15,6 +35,11 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+}
+
+.navlink {
+    width: 240px;
+    height: 137px;
 }
 
 .navlink > img {
