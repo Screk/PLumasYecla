@@ -16,11 +16,11 @@ const Fundacion_PLumasYecla = () => {
       <div className='seccion_de_llenado'>
         <h2>Seccion de llenado</h2>
         <div className='imagenes_llenado'>
-          <div>
+          <div className='imagenes'>
             <img src="../imagenes_llenado1.jpg" alt="" />
             <img src="../imagenes_llenado2.jpg" alt="" />
           </div>
-          <div>
+          <div className='imagenes'>
             <img src="../imagenes_llenado3.jpg" alt="" />
             <img src="../carrousel3.jpg" alt="" />
           </div>
